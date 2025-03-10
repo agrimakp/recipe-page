@@ -11,19 +11,28 @@
     --rose-50: hsl(330, 100%, 98%);
 }
 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
 body {
     font-family: "Outfit", sans-serif;
     font-style: normal;
     background-color: hsl(30, 54%, 90%);
     color: hsl(30, 10%, 34%);
-    margin-top: 120px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-weight: 400;
     font-size: 14px;
-    height: 100vh;
+    height: 100%;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    padding: 120px 0px;
 }
 
 h1,
@@ -81,30 +90,25 @@ li::marker {
     padding-bottom: 10px;
 }
 
- tr,  th {
-    border-bottom: 1px solid var(--stone-150);
+table.nutrition {
+    width: 100%;
+}
+
+table.nutrition tr {
+    text-align: left;
     padding: 20px;
     width: 100%;
-    text-align: left;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
+table.nutrition td {
+    border-bottom: 1px solid var(--stone-150);  
+    padding: 20px;
+    width: auto;
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+table.nutrition td:first-child {
+    border-bottom: 1px solid var(--stone-150);  
+    padding: 20px;
+    width: 40%;
+    font-weight: bold;
 }
