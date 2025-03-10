@@ -1,3 +1,105 @@
+:root {
+    --primary-color: hsl(24, 5%, 18%);
+    --secondary-color: hsl(14, 45%, 36%);
+    --accent-color: hsl(332, 51%, 32%);
+
+
+    --white: hsl(0, 0%, 100%);
+    --stone-100: hsl(30, 54%, 90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%, 34%);
+    --rose-50: hsl(330, 100%, 98%);
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(30, 10%, 34%);
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    height: 100vh;
+}
+
+h1,
+h2 {
+    font-family: "Young Serif", serif;
+    color: hsl(24, 5%, 18%);
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    color: var(--secondary-color);
+}
+
+h3 {
+    color: var(--accent-color);   
+}
+
+img {
+    border-radius: 12px;
+    width: 100%;
+}
+
+li {
+    margin:  10px 10px 10px -14px;
+    
+}
+
+li::marker {
+    color: var(--secondary-color);
+}
+
+.container {
+    width: 736px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 24px;
+    height: 100%;
+}
+
+.info {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+}
+
+.info li::marker {
+    color: var(--accent-color);
+}
+
+
+.bottom-line {
+    border-bottom: 1px solid var(--stone-150);
+    padding-bottom: 10px;
+}
+
+ tr,  th {
+    border-bottom: 1px solid var(--stone-150);
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .attribution {
     font-size: 11px;
     text-align: center;
