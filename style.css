@@ -112,3 +112,7 @@ table.nutrition td:first-child {
     width: 40%;
     font-weight: bold;
 }
+
+table.nutrition tr:last-child td {
+    border-bottom: none;  
+}
