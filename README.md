@@ -1,2 +1,2 @@
-# Recipe-page
+# Recipe Page
 Frontend Mentor - Recipe page
